@@ -7,7 +7,7 @@ import Footer from '../../components/Footer';
 function AboutMe() {
     return (
         <div className="d-flex flex-column" style={{height: "100vh"}}>
-            <Header />
+            <Header current="about"/>
             <Container classes="mt-5 mb-5">
                 <Col size="lg-9 md-10 sm-12" classes="mt-3 contentBox">
                     <Row>

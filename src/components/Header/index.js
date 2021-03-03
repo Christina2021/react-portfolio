@@ -2,7 +2,7 @@ import React from 'react';
 import NavLink from '../NavLink';
 import './styles.css'
 
-function NavBar() {
+function Header(props) {
     return(
       <header>
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -14,9 +14,9 @@ function NavBar() {
             </button>
             <div className="collapse navbar-collapse justify-content-end" id="navbarChristinasContent">
                 <ul className="navbar-nav ml-auto">
-                    <NavLink active="true" href="/about">About Me</NavLink>
-                    <NavLink active="false" href="/portfolio">My Portfolio</NavLink>
-                    <NavLink active="false" href="/contact">Contact Me</NavLink>
+                    <NavLink active={props.current === "about" ? "true" : "false"} href="/about">About Me</NavLink>
+                    <NavLink active={props.current === "portfolio" ? "true" : "false"} href="/portfolio">My Portfolio</NavLink>
+                    <NavLink active={props.current === "contact" ? "true" : "false"} href="/contact">Contact Me</NavLink>
                 </ul>
             </div>
         </nav>
@@ -24,4 +24,4 @@ function NavBar() {
     )
 }
 
-export default NavBar;
+export default Header;
