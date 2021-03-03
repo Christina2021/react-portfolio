@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "name": "Art With Larisse",
+      "imageSrc": "project-art-with-larisse.png",
+      "link": "https://student-registration-tracker.herokuapp.com/",
+      "github": "https://github.com/mbubel/student-registration",
+      "technologies": "HTML CSS Bootstrap JavaScript jQuery Node.JS Express.JS MySQL Heroku"
+    },
+    {
+        "id": 2,
+        "name": "Eat Da Burger!",
+        "imageSrc": "project-eat-da-burger.png",
+        "link": "https://christina2021-eat-da-burger.herokuapp.com/",
+        "github": "https://github.com/Christina2021/burger",
+        "technologies": "HTML CSS Foundation JavaScript jQuery Node.JS Express.JS MySQL Handlebars.JS"
+    },
+    {
+        "id": 3,
+        "name": "My Homepage",
+        "imageSrc": "project-my-homepage.png",
+        "link": "https://christina2021.github.io/my-homepage/",
+        "github": "https://github.com/Christina2021/my-homepage",
+        "technologies": "HTML CSS Bootstrap JavaScript jQuery"
+    }
+]

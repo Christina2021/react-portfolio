@@ -1,0 +1,38 @@
+.card {
+    border-radius: 5px;
+    padding: 2px;
+    margin-bottom: 1.5rem;
+}
+
+/* Interactive image */
+img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    transition: .5s ease;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    height: 300px;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.image:hover  img{
+    opacity: 0.2;
+}
+
+.image:hover .overlay {
+    opacity: 1;
+}
+
+@media (max-width: 767px){
+
+    .card {
+        margin-bottom: 2.5rem;
+    }
+
+}
