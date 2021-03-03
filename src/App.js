@@ -11,10 +11,10 @@ function App() {
     <Router>
       <div className="d-flex flex-column" style={{height: "100vh"}}>
         <Switch>
-          <Route exact path="/" component={Splash} />
-          <Route exact path="/about" component={AboutMe} />
-          <Route exact path="/portfolio" component={Portfolio}/>
-          <Route exact path="/contact" component={Contact}/>
+          <Route exact path="/react-portfolio/" component={Splash} />
+          <Route exact path="/react-portfolio/about" component={AboutMe} />
+          <Route exact path="/react-portfolio/portfolio" component={Portfolio}/>
+          <Route exact path="/react-portfolio/contact" component={Contact}/>
           {/* Route for 404 page */}
           <Route component={NoMatch}/>
         </Switch>
