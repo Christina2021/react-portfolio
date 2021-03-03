@@ -1,5 +1,5 @@
 import React from 'react';
-import NavBar from '../../components/NavBar';
+import Header from '../../components/Header';
 import MyPic from '../../images/me-2.jpg'
 import { Container, Row, Col } from "../../components/Grid";
 import Footer from '../../components/Footer';
@@ -7,7 +7,7 @@ import Footer from '../../components/Footer';
 function AboutMe() {
     return (
         <div className="d-flex flex-column" style={{height: "100vh"}}>
-            <NavBar />
+            <Header />
             <Container classes="mt-5 mb-5">
                 <Col size="lg-9 md-10 sm-12" classes="mt-3 contentBox">
                     <Row>
