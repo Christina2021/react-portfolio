@@ -14,9 +14,9 @@ function Header(props) {
             </button>
             <div className="collapse navbar-collapse justify-content-end" id="navbarChristinasContent">
                 <ul className="navbar-nav ml-auto">
-                    <NavLink active={props.current === "about" ? "true" : "false"} href="/react-portfolio/about">About Me</NavLink>
-                    <NavLink active={props.current === "portfolio" ? "true" : "false"} href="/react-portfolio/portfolio">My Portfolio</NavLink>
-                    <NavLink active={props.current === "contact" ? "true" : "false"} href="/react-portfolio/contact">Contact Me</NavLink>
+                    <NavLink active={props.current === "about" ? "true" : "false"} href="/about">About Me</NavLink>
+                    <NavLink active={props.current === "portfolio" ? "true" : "false"} href="/portfolio">My Portfolio</NavLink>
+                    <NavLink active={props.current === "contact" ? "true" : "false"} href="/contact">Contact Me</NavLink>
                 </ul>
             </div>
         </nav>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom"; 
 import { Container, Row, Col } from "../../components/Grid";
 
 function NoMatch() {
@@ -9,7 +10,7 @@ function NoMatch() {
                     <h1 className="mb-3">Error: 404 <i class="fas fa-exclamation-triangle"></i></h1>
                     <h1 className="mb-5">Page Not Found</h1>
                     <p>Everything will be okay.  <i class="far fa-grin-beam-sweat"></i></p>
-                    <p>Just click <a href="/react-portfolio/">here</a> to go back to the site!</p>
+                    <p>Just click <Link to="/">here</Link> to go back to the site!</p>
                 </Col>
             </Row>
         </Container>

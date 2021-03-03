@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom"; 
 import { Container, Row, Col } from "../../components/Grid";
 import './styles.css'
 
@@ -14,13 +15,13 @@ function Splash() {
             </Row>
             <Row>
                 <Col size="sm-4" classes="mt-5 d-flex align-items-center justify-content-center">
-                    <a class="rounded-pill text-center text-decoration-none splash-button" href="/react-portfolio/about">About Me</a>
+                    <Link to="/about" className="rounded-pill text-center text-decoration-none splash-button">About Me</Link>
                 </Col>
                 <Col size="sm-4" classes="mt-5 d-flex align-items-center justify-content-center">
-                    <a class="rounded-pill text-center text-decoration-none splash-button" href="/react-portfolio/portfolio">See My Work</a>
+                    <Link to="/portfolio" className="rounded-pill text-center text-decoration-none splash-button">See My Work</Link>
                 </Col>
                 <Col size="sm-4" classes="mt-5 d-flex align-items-center justify-content-center">
-                    <a class="rounded-pill text-center text-decoration-none splash-button" href="/react-portfolio/contact">Contact Me</a>
+                    <Link to="/contact" className="rounded-pill text-center text-decoration-none splash-button">Contact Me</Link>
                 </Col>
             </Row>
         </Container>
