@@ -1,11 +1,8 @@
 import React from 'react';
-import Header from '../../components/Header';
 import { Container, Row, Col } from "../../components/Grid";
 
 function NoMatch() {
     return(
-        <div>
-        <Header />
         <Container classes="mt-5">
             <Row classes="p-5">
                 <Col size="12" classes="text-center p-5 contentBox">
@@ -16,7 +13,6 @@ function NoMatch() {
                 </Col>
             </Row>
         </Container>
-        </div>
     )
 }
 
