@@ -7,16 +7,16 @@ function Header(props) {
       <header>
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
             <h2 className="navbar-brand mb-0">
-                <a href="/" className="text-decoration-none">Christina Shiroma</a>
+                <a href="/react-portfolio/" className="text-decoration-none">Christina Shiroma</a>
             </h2>
             <button className="navbar-toggler me-5" type="button" data-toggle="collapse" data-target="#navbarChristinasContent" aria-controls="navbarChristinasContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse justify-content-end" id="navbarChristinasContent">
                 <ul className="navbar-nav ml-auto">
-                    <NavLink active={props.current === "about" ? "true" : "false"} href="/about">About Me</NavLink>
-                    <NavLink active={props.current === "portfolio" ? "true" : "false"} href="/portfolio">My Portfolio</NavLink>
-                    <NavLink active={props.current === "contact" ? "true" : "false"} href="/contact">Contact Me</NavLink>
+                    <NavLink active={props.current === "about" ? "true" : "false"} href="/react-portfolio/about">About Me</NavLink>
+                    <NavLink active={props.current === "portfolio" ? "true" : "false"} href="/react-portfolio/portfolio">My Portfolio</NavLink>
+                    <NavLink active={props.current === "contact" ? "true" : "false"} href="/react-portfolio/contact">Contact Me</NavLink>
                 </ul>
             </div>
         </nav>

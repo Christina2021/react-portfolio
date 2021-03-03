@@ -14,13 +14,13 @@ function Splash() {
             </Row>
             <Row>
                 <Col size="sm-4" classes="mt-5 d-flex align-items-center justify-content-center">
-                    <a class="rounded-pill text-center text-decoration-none splash-button" href="/about">About Me</a>
+                    <a class="rounded-pill text-center text-decoration-none splash-button" href="/react-portfolio/about">About Me</a>
                 </Col>
                 <Col size="sm-4" classes="mt-5 d-flex align-items-center justify-content-center">
-                    <a class="rounded-pill text-center text-decoration-none splash-button" href="/portfolio">See My Work</a>
+                    <a class="rounded-pill text-center text-decoration-none splash-button" href="/react-portfolio/portfolio">See My Work</a>
                 </Col>
                 <Col size="sm-4" classes="mt-5 d-flex align-items-center justify-content-center">
-                    <a class="rounded-pill text-center text-decoration-none splash-button" href="/contact">Contact Me</a>
+                    <a class="rounded-pill text-center text-decoration-none splash-button" href="/react-portfolio/contact">Contact Me</a>
                 </Col>
             </Row>
         </Container>
