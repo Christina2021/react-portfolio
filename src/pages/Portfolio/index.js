@@ -19,7 +19,6 @@ function Portfolio() {
                         <Col size="12" classes="m-3">
                             <h1>My Portfolio</h1>
                             <hr />
-                            <p>Hover over the site image to see a button to go to the site!</p>
                         </Col>
                     </Row>
                     <Row classes="pb-5">
