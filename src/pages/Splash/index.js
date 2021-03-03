@@ -8,7 +8,7 @@ function Splash() {
             <Row>
                 <Col size="sm-2" />
                 <Col size="sm-9">
-                    <h1>Hi, I'm Christina!</h1>
+                    <h1 className="font-weight-bold">Hi, I'm Christina!</h1>
                     <h5>A full-stack web developer</h5>
                 </Col>
             </Row>
