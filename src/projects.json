@@ -6,9 +6,16 @@
       "link": "https://student-registration-tracker.herokuapp.com/",
       "github": "https://github.com/mbubel/student-registration",
       "technologies": "HTML CSS Bootstrap JavaScript jQuery Node.JS Express.JS MySQL Heroku"
+    },    {
+        "id": 2,
+        "name": "Employee Directory",
+        "imageSrc": "project-employee-directory.png",
+        "link": "https://christina2021.github.io/employee-directory/",
+        "github": "https://github.com/Christina2021/employee-directory",
+        "technologies": "HTML CSS JavaScript Node.JS React"
     },
     {
-        "id": 2,
+        "id": 3,
         "name": "Eat Da Burger!",
         "imageSrc": "project-eat-da-burger.png",
         "link": "https://christina2021-eat-da-burger.herokuapp.com/",
@@ -16,11 +23,27 @@
         "technologies": "HTML CSS Foundation JavaScript jQuery Node.JS Express.JS MySQL Handlebars.JS"
     },
     {
-        "id": 3,
+        "id": 4,
         "name": "My Homepage",
         "imageSrc": "project-my-homepage.png",
         "link": "https://christina2021.github.io/my-homepage/",
         "github": "https://github.com/Christina2021/my-homepage",
+        "technologies": "HTML CSS Bootstrap JavaScript jQuery"
+    },
+    {
+        "id": 5,
+        "name": "Search Away",
+        "imageSrc": "project-search-away.png",
+        "link": "https://karlypaige.github.io/SearchAway/",
+        "github": "https://github.com/karlypaige/SearchAway",
+        "technologies": "HTML CSS Foundation JavaScript jQuery"
+    },
+    {
+        "id": 6,
+        "name": "Weather Checker",
+        "imageSrc": "project-weather-checker.png",
+        "link": "https://christina2021.github.io/weather-checker/",
+        "github": "https://github.com/Christina2021/weather-checker",
         "technologies": "HTML CSS Bootstrap JavaScript jQuery"
     }
 ]

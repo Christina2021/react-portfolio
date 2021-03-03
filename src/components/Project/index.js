@@ -6,7 +6,7 @@ function Project(props) {
     let image = require(`../../images/${props.image}`);
 
     return(
-        <Col size="md-6">
+        <Col size="xl-4 md-6" classes="d-flex">
             <div className="card">
                 <div className="image">
                     <img src={image.default} alt={props.name}/>
@@ -16,7 +16,7 @@ function Project(props) {
                 </div>
                 <div className="card-body text-center p-3">
                     <h3 className="text-center">{props.name}</h3>
-                    <p className="mb-2">See the Github repo <a className="card-link" href={props.github} target="_blank" rel='noreferrer'>here</a>!</p>
+                    <p className="mb-2">See the Github repo <a className="card-link" href={props.github} target="_blank" rel='noreferrer'>here</a></p>
                     <p><b>Technologies used:</b> {props.technologies}</p>
                 </div>
             </div>
