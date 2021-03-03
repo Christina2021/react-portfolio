@@ -4,6 +4,7 @@ import Splash from "./pages/Splash";
 import AboutMe from "./pages/AboutMe";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
+import NoMatch from "./pages/NoMatch";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
           <Route exact path="/portfolio" component={Portfolio}/>
           <Route exact path="/contact" component={Contact}/>
           {/* Route for 404 page */}
-          <Route />
+          <Route component={NoMatch}/>
         </Switch>
       </div>
     </Router>
