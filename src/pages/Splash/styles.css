@@ -1,0 +1,48 @@
+.splash-header {
+    color: rgb(247, 247, 247);
+    display: block;
+}
+.splash-header h1 {
+    font-size: 6rem;
+    position: relative;
+    animation-name: fph1move;
+    animation-duration: 2.5s;
+}
+@keyframes fph1move {
+    0% {bottom: 1000px; opacity: 0}
+    25% {opacity: 0}
+    50% {opacity: 0.4}
+    100% {bottom: 0px; opacity: 1}
+}
+.splash-header h5 {
+    position: relative;
+    animation-name: fph5move;
+    animation-duration: 2.5s;
+}
+@keyframes fph5move {
+    0% {right: 600px; opacity: 0}
+    25% {opacity: 0}
+    50% {opacity: 0.4}
+    100% {right: 0px; opacity: 1}
+}
+.splash-button {
+    background: none;
+    color: rgb(247, 247, 247);
+    border: 2px solid rgb(201, 198, 198);;
+    padding: 1em 2em;
+    transition: all 0.3s;
+    animation-name: fpappear;
+    animation-duration: 4s;
+}
+@keyframes fpappear {
+    0% {opacity: 0}
+    50% {opacity: 0}
+    100% {opacity: 1}
+}
+.splash-button:hover {
+    border-color: aqua;
+    color: #f9f7f7;
+    box-shadow: 0 0.5em 0.5em -0.4em aqua;
+    transform: translateY(-0.3em);
+    cursor: pointer;
+    }

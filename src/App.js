@@ -1,13 +1,13 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import './App.css';
+import Splash from "./pages/Splash"
 
 function App() {
   return (
     <Router>
-      <div>
+      <div className="d-flex flex-column" style={{height: "100vh"}}>
         <Switch>
-          <Route exact path="/" />
+          <Route exact path="/" component={Splash} />
           <Route exact path="/about" />
           <Route exact path="/portfolio" />
           <Route exact path="/contact" />
