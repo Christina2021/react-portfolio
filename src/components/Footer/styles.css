@@ -1,0 +1,21 @@
+.footerAll {
+    background-color: #112d4e;
+    color: #f9f7f7;
+    justify-content: end;
+}
+.footerRow {
+    height: 0.1em;
+    background-color: aqua;
+}
+footer span {
+    display: block;
+    text-align: center;
+    font-family: "Fira Sans", sans-serif;
+}
+.footer-icon {
+    color: #f9f7f7;
+    transition: all 0.3s;
+}
+.footer-icon:hover {
+    color: #b3b3b3;
+}
