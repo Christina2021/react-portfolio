@@ -1,0 +1,21 @@
+h2 a {
+    color: #f9f7f7;
+    transition: all 0.3s;
+}
+h2 a:hover {
+    color: #b3b3b3;
+}
+.navbar-brand {
+    padding-left: 3.5em;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+.nav-item {
+    font-family: "Fira Sans", sans-serif;
+}
+#navbarChristinasContent {
+    padding-right: 3.5em;
+}
+#navbarChristinasContent ul {
+    padding-left: 5em;
+}
