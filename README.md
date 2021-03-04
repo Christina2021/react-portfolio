@@ -43,7 +43,7 @@ Please see the following instructions on how to use this application: <br>
 ![Screenshot4](./public/images/readme-screenshot-04.png)<br>
 ⭐ The Contact Me page will display my personal information (including an email, phone number, resume, and my LinkedIn and Github profiles).<br>
 ![Screenshot5](./public/images/readme-screenshot-05.png)<br>
-⭐ Should the user somehow end up navigating away from the main pages, they will encounter this 404 error page with a link to take them back to the splash page.<b
+⭐ Should the user somehow end up navigating away from the main pages, they will encounter this 404 error page with a link to take them back to the splash page.<br>
 
 ## Questions?
 Feel free to check out my github profile [here](https://github.com/Christina2021)!
