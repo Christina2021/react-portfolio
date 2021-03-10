@@ -1,5 +1,13 @@
 [
     {
+      "id": 0,
+      "name": "Google Books Search",
+      "imageSrc": "project-google-books-search.png",
+      "link": "https://christina2021-books-search.herokuapp.com/#/",
+      "github": "https://github.com/Christina2021/google-books-search",
+      "technologies": "HTML CSS Bootstrap JavaScript Node.JS Express.JS MongoDB React Heroku"
+    },
+    {
       "id": 1,
       "name": "Art With Larisse",
       "imageSrc": "project-art-with-larisse.png",
