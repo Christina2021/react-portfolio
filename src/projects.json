@@ -1,6 +1,14 @@
 [
     {
       "id": 0,
+      "name": "Noi Request App",
+      "imageSrc": "project-noi-request-app.png",
+      "link": "https://noi-mobile-app.herokuapp.com/",
+      "github": "https://github.com/RobOrtiz/requestapp",
+      "technologies": "HTML CSS Bootstrap JavaScript Node.JS Express.JS MongoDB React Heroku (APIs include: Auth0, LastFM, Cloudinary, Stripe)"
+    },
+    {
+      "id": 1,
       "name": "Google Books Search",
       "imageSrc": "project-google-books-search.png",
       "link": "https://christina2021-books-search.herokuapp.com/#/",
@@ -8,14 +16,15 @@
       "technologies": "HTML CSS Bootstrap JavaScript Node.JS Express.JS MongoDB React Heroku"
     },
     {
-      "id": 1,
+      "id": 2,
       "name": "Art With Larisse",
       "imageSrc": "project-art-with-larisse.png",
       "link": "https://student-registration-tracker.herokuapp.com/",
       "github": "https://github.com/mbubel/student-registration",
       "technologies": "HTML CSS Bootstrap JavaScript jQuery Node.JS Express.JS MySQL Heroku"
-    },    {
-        "id": 2,
+    },    
+    {
+        "id": 3,
         "name": "Employee Directory",
         "imageSrc": "project-employee-directory.png",
         "link": "https://christina2021.github.io/employee-directory/",
@@ -23,7 +32,7 @@
         "technologies": "HTML CSS JavaScript Node.JS React"
     },
     {
-        "id": 3,
+        "id": 4,
         "name": "Eat Da Burger!",
         "imageSrc": "project-eat-da-burger.png",
         "link": "https://christina2021-eat-da-burger.herokuapp.com/",
@@ -31,7 +40,7 @@
         "technologies": "HTML CSS Foundation JavaScript jQuery Node.JS Express.JS MySQL Handlebars.JS"
     },
     {
-        "id": 4,
+        "id": 5,
         "name": "My Homepage",
         "imageSrc": "project-my-homepage.png",
         "link": "https://christina2021.github.io/my-homepage/",
@@ -39,7 +48,7 @@
         "technologies": "HTML CSS Bootstrap JavaScript jQuery"
     },
     {
-        "id": 5,
+        "id": 6,
         "name": "Search Away",
         "imageSrc": "project-search-away.png",
         "link": "https://karlypaige.github.io/SearchAway/",
@@ -47,7 +56,7 @@
         "technologies": "HTML CSS Foundation JavaScript jQuery"
     },
     {
-        "id": 6,
+        "id": 7,
         "name": "Weather Checker",
         "imageSrc": "project-weather-checker.png",
         "link": "https://christina2021.github.io/weather-checker/",
