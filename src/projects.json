@@ -3,7 +3,7 @@
       "id": 0,
       "name": "Noi Request App",
       "imageSrc": "project-noi-request-app.png",
-      "link": "https://noi-mobile-app.herokuapp.com/",
+      "link": "https://www.noilivebeta.com/",
       "github": "https://github.com/RobOrtiz/requestapp",
       "technologies": "HTML CSS Bootstrap JavaScript Node.JS Express.JS MongoDB React Heroku (APIs include: Auth0, LastFM, Cloudinary, Stripe)"
     },
